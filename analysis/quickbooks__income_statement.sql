@@ -36,7 +36,7 @@ revenue_total as (
 
 expense_total as (
     select 
-        'expene' as income_statement_type, 
+        'expense' as income_statement_type, 
         sum(ending_balance) 
     from expense
 )
